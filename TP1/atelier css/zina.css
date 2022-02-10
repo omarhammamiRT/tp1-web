@@ -1,0 +1,65 @@
+/* NOTE : THIS WORK WAS DONE ON A 22" SCREEN 1920x1080 everything works fine I don't know how it will appears on other resolutions*/
+
+.top {
+  background-image: url("img/top_bg.png");
+  margin: -10px;
+  height: 50px;
+}
+
+.block {
+  margin: 0px 250px;
+  height: 1200px;
+}
+
+.img {
+  margin-top: 10px;
+  height: 400px;
+  background-image: url("img/flash_img.png");
+}
+
+.logo {
+  margin-left: -10px;
+}
+
+.submiddle1 {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  margin-right: -25px;
+}
+
+.submiddle2 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-right: -10px;
+}
+
+.bgbarre {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.barre {
+  font-size: 20px;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  background-image: url("img/rings.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s ease-in;
+}
+
+.bott {
+  margin: -10px;
+  background-image: url("img/foot_bg.png");
+  height: 212px;
+}
